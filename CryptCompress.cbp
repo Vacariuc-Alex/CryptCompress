@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CryptCompress" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CryptCompress" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CryptCompress" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="classes/archiver/Archiver.h" />
+		<Unit filename="classes/archiver/HuffmanArchiver.h" />
+		<Unit filename="classes/archiver/utils/Comparator.h" />
+		<Unit filename="classes/archiver/utils/Node.h" />
+		<Unit filename="classes/cipher/Cipher.h" />
+		<Unit filename="classes/cipher/CustomCipher.h" />
+		<Unit filename="classes/file/File.h" />
+		<Unit filename="classes/file/TextFile.h" />
+		<Unit filename="classes/operator/Operator.h" />
+		<Unit filename="classes/processor/TextProcessor.h" />
+		<Unit filename="classes/utils/Common.h" />
+		<Unit filename="classes/utils/Constants.h" />
+		<Unit filename="implementations/archiver/HuffmanArchiverCompressor.cpp" />
+		<Unit filename="implementations/archiver/HuffmanArchiverDecompressor.cpp" />
+		<Unit filename="implementations/cipher/CustomCipherDecryptor.cpp" />
+		<Unit filename="implementations/cipher/CustomCipherEncryptor.cpp" />
+		<Unit filename="implementations/file/TextFile.cpp" />
+		<Unit filename="implementations/operator/Operator.cpp" />
+		<Unit filename="implementations/processor/TextProcessor.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

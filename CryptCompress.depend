@@ -1,0 +1,232 @@
+# depslib dependency file v1.0
+1683703082 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\main.cpp
+	"classes/operator/Operator.h"
+
+1683355151 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\files.h
+
+1683353887 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\implementations\textfiles.h
+	"../Files.h"
+
+1683356686 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\implementations\textfiles.cpp
+	"iostream"
+	"fstream"
+	"string"
+	"unistd.h"
+	"../services/TextFiles.h"
+
+1683356102 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\services\textfiles.h
+	"../Files.h"
+	"string"
+
+1683376164 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\file\textfiles.cpp
+	"iostream"
+	"fstream"
+	"string"
+	"unistd.h"
+	"../../classes/file/TextFile.h"
+
+1683737761 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\file\textfile.h
+	"File.h"
+	"../cipher/CustomCipher.h"
+	"../archiver/HuffmanArchiver.h"
+
+1683737745 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\file\file.h
+	"iostream"
+	"fstream"
+	"string"
+	"limits"
+	"unistd.h"
+
+1683730486 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\cipher\customcipher.cpp
+	"iostream"
+	"math.h"
+	"../../classes/cipher/CustomCipher.h"
+
+1683813161 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\cipher\customcipher.h
+	"Cipher.h"
+
+1683739727 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\cipher\cipher.h
+	"iostream"
+	"math.h"
+	"vector"
+	"string"
+
+1683388386 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\processor\processor.cpp
+	"iostream"
+	"unistd.h"
+	"../../classes/processor/Processor.h"
+
+1683387935 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\processor\processor.h
+	"../../classes/file/TextFile.h"
+
+1683376893 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\processor\processor.cpp
+	"../../classes/processor/Processor.h"
+	"iostream"
+
+1683817562 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\file\textfile.cpp
+	"../../classes/file/TextFile.h"
+
+1683737675 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\operator\operator.h
+	"iostream"
+	"limits"
+	"unistd.h"
+	"../file/TextFile.h"
+	"../processor/TextProcessor.h"
+
+1683390582 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\operator\imageoperator.cpp
+	"iostream"
+	"unistd.h"
+	"../../classes/operator/ImageOperator.h"
+
+1683392689 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\operator\imageoperator.h
+
+1683745579 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\operator\operator.cpp
+	"../../classes/operator/Operator.h"
+
+1683391294 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\operator\textoperator.cpp
+	"iostream"
+	"unistd.h"
+	"../../classes/operator/TextOperator.h"
+	"../../classes/file/File.h"
+
+1683392723 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\operator\textoperator.h
+	"../file/File.h"
+
+1683812199 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\processor\textprocessor.h
+	"iostream"
+	"limits"
+	"unistd.h"
+	"../file/TextFile.h"
+	"string"
+
+1683393327 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\processor\imageprocessor.h
+
+1683745599 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\processor\textprocessor.cpp
+	"../../classes/processor/TextProcessor.h"
+
+1683393517 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\processor\imageprocessor.cpp
+	"../../classes/processor/ImageProcessor.h"
+
+1683897967 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\huffmanarchiver.h
+	"Archiver.h"
+
+1683817659 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\archiver.h
+	"iostream"
+	"string"
+	"unordered_map"
+	"queue"
+	"utils/Node.h"
+	"utils/Comparator.h"
+
+1683813843 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\archiver\huffmanarchiver.cpp
+	"iostream"
+	"../../classes/archiver/HuffmanArchiver.h"
+	"queue"
+
+1683452897 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\node.h
+
+1683452897 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\tools\node.h
+
+1683453017 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\tools\comparator.h
+
+1683813738 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\utils\node.h
+
+1683813817 c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\classes\archiver\utils\comparator.h
+
+1683813167 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\cipher\customcipherencryptor.cpp
+	"../../classes/cipher/CustomCipher.h"
+
+1683811961 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\cipher\customcipherdecryptor.cpp
+	"../../classes/cipher/CustomCipher.h"
+
+1683888200 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\archiver\huffmanarchiverdecompressor.cpp
+	"../../classes/archiver/HuffmanArchiver.h"
+
+1683819776 source:c:\users\avacariuc\onedrive - endava\desktop\myfiles\trainings\cryptcompress\implementations\archiver\huffmanarchivercompressor.cpp
+	"../../classes/archiver/HuffmanArchiver.h"
+
+1683783776 source:c:\users\alex\desktop\cryptcompress\implementations\archiver\huffmanarchivercompressor.cpp
+	"../../classes/archiver/HuffmanArchiver.h"
+
+1683985069 c:\users\alex\desktop\cryptcompress\classes\archiver\huffmanarchiver.h
+	"Archiver.h"
+
+1683781658 c:\users\alex\desktop\cryptcompress\classes\archiver\archiver.h
+	"iostream"
+	"string"
+	"unordered_map"
+	"queue"
+	"utils/Node.h"
+	"utils/Comparator.h"
+
+1683777738 c:\users\alex\desktop\cryptcompress\classes\archiver\utils\node.h
+
+1683985413 c:\users\alex\desktop\cryptcompress\classes\archiver\utils\comparator.h
+
+1684062158 source:c:\users\alex\desktop\cryptcompress\implementations\archiver\huffmanarchiverdecompressor.cpp
+	"../../classes/archiver/HuffmanArchiver.h"
+
+1684068727 source:c:\users\alex\desktop\cryptcompress\implementations\cipher\customcipherdecryptor.cpp
+	"../../classes/cipher/CustomCipher.h"
+
+1683777160 c:\users\alex\desktop\cryptcompress\classes\cipher\customcipher.h
+	"Cipher.h"
+
+1683703726 c:\users\alex\desktop\cryptcompress\classes\cipher\cipher.h
+	"iostream"
+	"math.h"
+	"vector"
+	"string"
+
+1684063210 source:c:\users\alex\desktop\cryptcompress\implementations\cipher\customcipherencryptor.cpp
+	"../../classes/cipher/CustomCipher.h"
+
+1684069908 source:c:\users\alex\desktop\cryptcompress\implementations\file\textfile.cpp
+	"../../classes/file/TextFile.h"
+
+1683701760 c:\users\alex\desktop\cryptcompress\classes\file\textfile.h
+	"File.h"
+	"../cipher/CustomCipher.h"
+	"../archiver/HuffmanArchiver.h"
+
+1683985919 c:\users\alex\desktop\cryptcompress\classes\file\file.h
+	"iostream"
+	"fstream"
+	"string"
+	"limits"
+	"unistd.h"
+
+1684073552 source:c:\users\alex\desktop\cryptcompress\implementations\operator\operator.cpp
+	"../../classes/operator/Operator.h"
+
+1683985979 c:\users\alex\desktop\cryptcompress\classes\operator\operator.h
+	"iostream"
+	"limits"
+	"unistd.h"
+	"../file/TextFile.h"
+	"../processor/TextProcessor.h"
+	"../utils/Constants.h"
+
+1684072719 c:\users\alex\desktop\cryptcompress\classes\processor\textprocessor.h
+	"iostream"
+	"limits"
+	"unistd.h"
+	"../file/TextFile.h"
+	"../utils/Constants.h"
+	"../utils/Common.h"
+
+1684073459 source:c:\users\alex\desktop\cryptcompress\implementations\processor\textprocessor.cpp
+	"../../classes/processor/TextProcessor.h"
+
+1683667082 source:c:\users\alex\desktop\cryptcompress\main.cpp
+	"classes/operator/Operator.h"
+
+1683986303 c:\users\alex\desktop\cryptcompress\classes\utils\constants.h
+	"string"
+
+1683992855 c:\users\alex\desktop\cryptcompress\classes\utils\handlers.h
+	"string"
+
+1684073084 c:\users\alex\desktop\cryptcompress\classes\utils\common.h
+	"string"
+
